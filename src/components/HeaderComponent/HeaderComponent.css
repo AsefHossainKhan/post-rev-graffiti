@@ -1,0 +1,9 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-text {
+  font-size: 3vw;
+}

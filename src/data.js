@@ -69,6 +69,56 @@ const images = [
     download_url: "/images/17.jpg",
     author: "image 17",
   },
+  {
+    id: 20,
+    download_url: "/images/20.jpg",
+    author: "image 20",
+  },
+  {
+    id: 21,
+    download_url: "/images/21.jpg",
+    author: "image 21",
+  },
+  {
+    id: 22,
+    download_url: "/images/22.jpg",
+    author: "image 22",
+  },
+  {
+    id: 23,
+    download_url: "/images/23.jpg",
+    author: "image 23",
+  },
+  {
+    id: 24,
+    download_url: "/images/24.jpg",
+    author: "image 24",
+  },
+  {
+    id: 25,
+    download_url: "/images/25.jpg",
+    author: "image 25",
+  },
+  {
+    id: 26,
+    download_url: "/images/26.jpg",
+    author: "image 26",
+  },
+  {
+    id: 27,
+    download_url: "/images/27.jpg",
+    author: "image 27",
+  },
+  {
+    id: 28,
+    download_url: "/images/28.jpg",
+    author: "image 28",
+  },
+  {
+    id: 29,
+    download_url: "/images/29.jpg",
+    author: "image 29",
+  },
 ];
 
 export default images;

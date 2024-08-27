@@ -12,8 +12,8 @@ const breakpointColumnsObj = {
 const MasonryLayout = ({ images, setSelectedImage }) => (
   <Masonry
     breakpointCols={breakpointColumnsObj}
-    className="masonry-grid"
-    columnClassName="masonry-grid_column"
+    className="my-masonry-grid"
+    columnClassName="my-masonry-grid_column"
   >
     {images.map((image) => (
       <ImageComponent

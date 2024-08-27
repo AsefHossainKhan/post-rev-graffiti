@@ -12,6 +12,9 @@ const ImageComponent = ({ image, setSelectedImage }) => {
         src={image.download_url}
         alt={image.author}
       />
+      <div className="image-subtext-container">
+        <h1 className="image-subtext">DHAKA</h1>
+      </div>
     </div>
   );
 };

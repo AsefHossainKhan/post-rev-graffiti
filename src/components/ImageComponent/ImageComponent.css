@@ -1,4 +1,17 @@
+.image-container {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
 .image-item {
-  margin-bottom: 30px; /* Space between images */
   width: 100%; /* Ensure images take full column width */
+}
+
+.image-subtext-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-subtext {
+  font-size: 1.5vw;
 }

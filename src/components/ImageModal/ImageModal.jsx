@@ -11,6 +11,9 @@ const ImageModal = ({ isOpen, onRequestClose, image }) => (
         src={image.download_url}
         alt={image.author}
       />
+      <div className="modal-image-subtext-container">
+        <h1 className="modal-image-subtext">Location: Dhaka dhaka dhaka</h1>
+      </div>
     </div>
   </Modal>
 );

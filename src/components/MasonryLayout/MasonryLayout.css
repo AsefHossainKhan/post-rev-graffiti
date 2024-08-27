@@ -1,10 +1,11 @@
-.masonry-grid {
+.my-masonry-grid {
   display: flex;
   margin-left: -30px; /* Optional negative margin to offset spacing */
   width: auto;
 }
 
-.masonry-grid_column {
+.my-masonry-grid_column {
   padding-left: 30px; /* Space between columns */
   background-clip: padding-box;
 }
+

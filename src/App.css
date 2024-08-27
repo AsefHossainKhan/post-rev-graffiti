@@ -10,3 +10,22 @@
   align-items: center;
   z-index: 1000;
 }
+
+/* .ReactModal__Content {
+  position: relative;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease-in-out;
+} */
+
+.App {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
