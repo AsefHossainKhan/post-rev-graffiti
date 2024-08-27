@@ -1,0 +1,18 @@
+.modal-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Maintain aspect ratio, fit within the modal */
+  max-height: 90vh;
+}
+
+.modal-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-root {
+  width: 80%;
+}

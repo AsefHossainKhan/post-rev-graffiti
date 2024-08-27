@@ -1,0 +1,4 @@
+.image-item {
+  margin-bottom: 30px; /* Space between images */
+  width: 100%; /* Ensure images take full column width */
+}
