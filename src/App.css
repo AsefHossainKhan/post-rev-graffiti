@@ -26,6 +26,22 @@
 } */
 
 .App {
+  position: relative;
+  background-color: rgb(190, 189, 189);
+}
+
+.main-content {
+  position: relative;
   padding-left: 2vw;
   padding-right: 2vw;
+  z-index: 50;
+}
+
+.background-image {
+  /* opacity: 0.6; */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }

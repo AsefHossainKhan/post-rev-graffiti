@@ -10,15 +10,22 @@ function App() {
   const [selectedImage, setSelectedImage] = useState(null);
   return (
     <div className="App">
-      <HeaderComponent />
-      <MasonryLayout images={images} setSelectedImage={setSelectedImage} />
-      {selectedImage && (
-        <ImageModal
-          isOpen={Boolean(selectedImage)}
-          onRequestClose={() => setSelectedImage(null)}
-          image={selectedImage}
-        />
-      )}
+      {/* <img
+        className="background-image"
+        src="/background/ivy-and-grass-on-brick-wall-background.png"
+        alt="asdas"
+      /> */}
+      <div className="main-content">
+        <HeaderComponent />
+        <MasonryLayout images={images} setSelectedImage={setSelectedImage} />
+        {selectedImage && (
+          <ImageModal
+            isOpen={Boolean(selectedImage)}
+            onRequestClose={() => setSelectedImage(null)}
+            image={selectedImage}
+          />
+        )}
+      </div>
     </div>
   );
 }
