@@ -32,4 +32,5 @@
 
 .modal-image-subtext {
   font-size: var(--fs-600);
+  font-family: var(--ff-600);
 }

@@ -16,4 +16,5 @@
 .image-subtext {
   padding-top: 0.5vh;
   font-size: var(--fs-600);
+  font-family: var(--ff-600);
 }
