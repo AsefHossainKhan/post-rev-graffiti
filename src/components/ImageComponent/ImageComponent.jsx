@@ -13,7 +13,7 @@ const ImageComponent = ({ image, setSelectedImage }) => {
         alt={image.author}
       />
       <div className="image-subtext-container">
-        <h1 className="image-subtext">DHAKA</h1>
+        <h1 className="image-subtext">Dhaka</h1>
       </div>
     </div>
   );

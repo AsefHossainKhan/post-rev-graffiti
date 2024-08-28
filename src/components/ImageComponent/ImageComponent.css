@@ -5,7 +5,6 @@
 .image-item {
   width: 100%; /* Ensure images take full column width */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-
 }
 
 .image-subtext-container {
@@ -16,5 +15,6 @@
 
 .image-subtext {
   padding-top: 0.5vh;
-  font-size: 1.5vw;
+  font-size: var(--fs-600);
+  font-family: var(--ff-600);
 }

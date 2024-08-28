@@ -1,22 +1,7 @@
-.modal-image {
-  width: 100%;
-  height: auto;
-  object-fit: contain; /* Maintain aspect ratio, fit within the modal */
-  max-height: 85vh;
-}
-
-.modal-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .modal-root {
-  width: auto;
-  max-width: 80%;
+  width: 95%;
+  max-height: 80%;
+  max-width: 95%;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -26,10 +11,62 @@
   outline: none; /* Remove focus outline */
 }
 
-.modal-image-subtext-container {
+.modal-container {
+  padding: 10px;
   width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.modal-image-subtext {
-  font-size: 2.5vw;
+.modal-image {
+  /* background-color: black; */
+  width: 75%;
+  height: auto;
+  object-fit: contain; /* Maintain aspect ratio, fit within the modal */
+  max-height: 85vh;
+  flex: 2;
+}
+
+.modal-side-container {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  gap: 10px;
+  padding: 10px;
+  flex: 1;
+}
+
+.modal-side-container-location {
+  font-size: var(--fs-400);
+  font-style: italic;
+  font-family: var(--ff-400);
+}
+
+.modal-side-container-photo-credit {
+  font-size: var(--fs-400);
+  font-style: italic;
+  font-family: var(--ff-400);
+}
+
+.modal-side-container-artists {
+  font-size: var(--fs-400);
+  font-style: italic;
+  font-family: var(--ff-400);
+}
+
+.modal-side-container-description {
+  font-size: var(--fs-400);
+  font-style: italic;
+  font-family: var(--ff-400);
+}
+
+.side-titles {
+  font-weight: bold;
+  font-family: var(--ff-400);
+  font-size: var(--fs-400);
 }
