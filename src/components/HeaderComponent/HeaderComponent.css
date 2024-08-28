@@ -8,4 +8,29 @@
 
 .header-text {
   font-size: var(--fs-xl);
+  color: #8b0000; /* Dark red as a fallback color */
+  background: linear-gradient(
+    to bottom,
+    #8b0000,
+    #ff0000,
+    #8b0000,
+    #ff0000,
+    #8b0000
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* Optional: Add a shadow for a more dramatic effect */
+.header-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 60%;
+  height: 20px;
+  background: linear-gradient(to bottom, rgba(139, 0, 0, 0.8), transparent);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  filter: blur(2px);
 }
