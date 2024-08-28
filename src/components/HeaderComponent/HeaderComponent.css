@@ -7,5 +7,5 @@
 }
 
 .header-text {
-  font-size: 3vw;
+  font-size: var(--fs-xl);
 }

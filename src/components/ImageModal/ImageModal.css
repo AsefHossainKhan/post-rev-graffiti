@@ -31,5 +31,5 @@
 }
 
 .modal-image-subtext {
-  font-size: 2.5vw;
+  font-size: var(--fs-600);
 }

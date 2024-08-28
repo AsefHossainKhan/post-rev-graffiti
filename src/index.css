@@ -1,13 +1,28 @@
 @font-face {
-  font-family: 'Beauty Morning';
-  src: url('/fonts/Beauty Morning.otf') format('opentype'),
-       url('/fonts/Beauty Morning.ttf') format('truetype');
+  font-family: "Beauty Morning";
+  src: url("/fonts/Beauty Morning.otf") format("opentype"),
+    url("/fonts/Beauty Morning.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Beauty Morning', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Beauty Morning", Georgia, "Times New Roman", Times, serif;
+}
+
+:root {
+  --fs-xl: 3rem;
+  --fs-600: 2rem;
+  --fs-400: 1rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-xl: 1.5rem;
+    --fs-600: 1rem;
+    --fs-400: 0.5rem;
+  }
 }
