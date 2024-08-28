@@ -10,11 +10,6 @@ function App() {
   const [selectedImage, setSelectedImage] = useState(null);
   return (
     <div className="App">
-      {/* <img
-        className="background-image"
-        src="/background/ivy-and-grass-on-brick-wall-background.png"
-        alt="asdas"
-      /> */}
       <div className="main-content">
         <HeaderComponent />
         <MasonryLayout images={images} setSelectedImage={setSelectedImage} />
