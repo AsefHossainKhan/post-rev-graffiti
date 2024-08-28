@@ -5,15 +5,42 @@ const images = [
     author: "image 0",
   },
   {
+    id: 22,
+    download_url: "/images/22.jpg",
+    author: "image 22",
+  },
+  {
+    id: 21,
+    download_url: "/images/21.jpg",
+    author: "image 21",
+  },
+  {
+    id: 24,
+    download_url: "/images/24.jpg",
+    author: "image 24",
+  },
+  {
+    id: 20,
+    download_url: "/images/20.jpg",
+    author: "image 20",
+  },
+  {
+    id: 23,
+    download_url: "/images/23.jpg",
+    author: "image 23",
+  },
+  {
     id: 1,
     download_url: "/images/1.jpg",
     author: "image 1",
   },
+
   {
     id: 2,
     download_url: "/images/2.jpg",
     author: "image 2",
   },
+
   {
     id: 3,
     download_url: "/images/3.jpg",
@@ -68,31 +95,6 @@ const images = [
     id: 17,
     download_url: "/images/17.jpg",
     author: "image 17",
-  },
-  {
-    id: 20,
-    download_url: "/images/20.jpg",
-    author: "image 20",
-  },
-  {
-    id: 21,
-    download_url: "/images/21.jpg",
-    author: "image 21",
-  },
-  {
-    id: 22,
-    download_url: "/images/22.jpg",
-    author: "image 22",
-  },
-  {
-    id: 23,
-    download_url: "/images/23.jpg",
-    author: "image 23",
-  },
-  {
-    id: 24,
-    download_url: "/images/24.jpg",
-    author: "image 24",
   },
   {
     id: 25,
