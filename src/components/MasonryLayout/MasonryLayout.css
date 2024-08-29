@@ -12,6 +12,7 @@
 .masonry-layout-header {
   width: 100%;
   text-align: center;
+  font-weight: 500;
   font-family: var(--ff-l);
   font-size: var(--fs-l);
   margin-bottom: 2vh;
