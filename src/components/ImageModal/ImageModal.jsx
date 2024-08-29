@@ -8,7 +8,7 @@ const ImageModal = ({ isOpen, onRequestClose, image }) => (
     <div className="modal-container">
       <LazyLoadImage
         className="modal-image"
-        src={image.download_url}
+        src={image.url}
         alt={image.author}
       />
       <div className="modal-side-container">
