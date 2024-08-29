@@ -18,6 +18,7 @@
 .header-description {
   text-align: center;
   font-family: var(--ff-600);
+  font-size: var(--fs-600);
 }
 
 .header-submit-button {
@@ -30,8 +31,8 @@
   padding: 8px;
   border-radius: 25px;
   border: 1px solid black;
-  font-family: var(--ff-600);
-  font-size: var(--fs-600);
+  font-family: var(--ff-400);
+  font-size: var(--fs-400);
   box-shadow: 0 4px 8px rgba(87, 87, 87, 0.575);
   background-color: rgb(99, 98, 98);
   color: rgb(235, 235, 235);
