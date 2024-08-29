@@ -8,25 +8,25 @@ const ImageModal = ({ isOpen, onRequestClose, image }) => (
     <div className="modal-container">
       <LazyLoadImage
         className="modal-image"
-        src={image.download_url}
-        alt={image.author}
+        src={image.url}
+        alt={image.description}
       />
       <div className="modal-side-container">
         <span className="modal-side-container-location">
-          <span className="side-titles">Location:</span> Lorem Ipsum
+          <span className="side-titles">Location: </span>
+          {image.location}
         </span>
         <span className="modal-side-container-photo-credit">
-          <span className="side-titles">Photo Credit:</span> Lorem Ipsum
+          <span className="side-titles">Photo Credit: </span>
+          {image.photoCredit}
         </span>
         <span className="modal-side-container-artists">
-          <span className="side-titles">Artists:</span> Lorem Ipsum, Lorem Ipsum
+          <span className="side-titles">Artists: </span>
+          {image.artists}
         </span>
         <span className="modal-side-container-description">
-          <span className="side-titles">Description:</span> Lorem ipsum dolor
-          sit amet consectetur, adipisicing elit. Ad voluptatibus iure quisquam
-          eligendi alias quo neque maiores vel vitae unde consequatur illum
-          magnam necessitatibus repudiandae voluptates ducimus, totam doloribus
-          cumque?
+          <span className="side-titles">Description: </span>
+          {image.description}
         </span>
       </div>
     </div>

@@ -9,11 +9,11 @@ const ImageComponent = ({ image, setSelectedImage }) => {
     <div className="image-container" onClick={() => handleImageClick(image)}>
       <LazyLoadImage
         className="image-item"
-        src={image.download_url}
-        alt={image.author}
+        src={image.url}
+        alt={image.description}
       />
       <div className="image-subtext-container">
-        <h1 className="image-subtext">Dhaka</h1>
+        <h1 className="image-subtext">{image.district}</h1>
       </div>
     </div>
   );

@@ -1,30 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-
-/* @font-face {
-  font-family: "Beauty Morning";
-  src: url("/fonts/Beauty Morning.otf") format("opentype"),
-    url("/fonts/Beauty Morning.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Playball", Georgia, "Times New Roman", Times, serif;
+  font-family: "Playball", "Times New Roman", Times, serif;
 }
 
 :root {
   --fs-xl: 3rem;
   --fs-l: 2rem;
-  --fs-600: 1rem;
+  --fs-600: 1.3rem;
+  --fs-500: 1.2rem;
   --fs-400: 1rem;
 
   --ff-xl: "Playball", Georgia, "Times New Roman", Times, serif;
   --ff-l: "Playball", Georgia, "Times New Roman", Times, serif;
-  --ff-600: Georgia, "Times New Roman", Times, serif;
+  --ff-600: "Courgette", "Times New Roman", Times, serif;
+  --ff-500: "Kaushan", "Times New Roman", Times, serif;
   --ff-400: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -33,6 +28,7 @@
     --fs-xl: 2rem;
     --fs-l: 1.5rem;
     --fs-600: 1rem;
+    --fs-500: 0.8rem;
     --fs-400: 0.5rem;
   }
 }
