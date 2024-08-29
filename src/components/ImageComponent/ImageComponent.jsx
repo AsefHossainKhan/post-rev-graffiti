@@ -10,10 +10,10 @@ const ImageComponent = ({ image, setSelectedImage }) => {
       <LazyLoadImage
         className="image-item"
         src={image.url}
-        alt={image.author}
+        alt={image.description}
       />
       <div className="image-subtext-container">
-        <h1 className="image-subtext">Dhaka</h1>
+        <h1 className="image-subtext">{image.district}</h1>
       </div>
     </div>
   );
