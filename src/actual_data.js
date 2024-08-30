@@ -6,7 +6,7 @@ const graffitiImages = [
     photoCredit: "Asef Hossain Khan",
     artists: "Unknown",
     description: "Foolish acts done by the then government",
-    url: "/graffiti_images/binodon_bhandar.JPEG",
+    url: "/graffiti_images/binodon_bhandar.jpg",
     thumbnail_url: "/graffiti_thumbnails/binodon_bhandar.jpg",
   },
   {
@@ -17,7 +17,7 @@ const graffitiImages = [
     artists: "Unknown",
     description:
       "Encouraging political discussion in tongs, which would otherwise be avoided by the young generation",
-    url: "/graffiti_images/tong.JPEG",
+    url: "/graffiti_images/tong.jpg",
     thumbnail_url: "/graffiti_thumbnails/tong.jpg",
   },
   {
@@ -27,7 +27,7 @@ const graffitiImages = [
     photoCredit: "Ashfaq Hossain Khan",
     artists: "Unknown",
     description: "Different significant events of the revolution",
-    url: "/graffiti_images/different_events.jpeg",
+    url: "/graffiti_images/different_events.jpg",
     thumbnail_url: "/graffiti_thumbnails/different_events.jpg",
   },
   {
@@ -37,7 +37,7 @@ const graffitiImages = [
     photoCredit: "Ashfaq Hossain Khan",
     artists: "Unknown",
     description: "Beautiful portrayal of unity ",
-    url: "/graffiti_images/pata_chera_nished.jpeg",
+    url: "/graffiti_images/pata_chera_nished.jpg",
     thumbnail_url: "/graffiti_thumbnails/pata_chera_nished.jpg",
   },
   {
