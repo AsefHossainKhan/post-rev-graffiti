@@ -4,7 +4,7 @@ import MasonryLayout from "./components/MasonryLayout/MasonryLayout";
 import images from "./actual_data";
 import ImageModal from "./components/ImageModal/ImageModal";
 import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
-import { PERLOADCOUNT, SCROLLTHRESHOLD, DELAY } from "./utils";
+import { PERLOADCOUNT, SCROLLTHRESHOLD } from "./utils";
 
 function App() {
   const [selectedImage, setSelectedImage] = useState(null);
