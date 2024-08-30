@@ -23,7 +23,7 @@ const HeaderComponent = () => {
         brighter future.
       </p>
       <button className="header-submit-button" onClick={handleButtonSubmit}>
-        Submit Graffiti Photo
+        Make a submission
       </button>
     </div>
   );
