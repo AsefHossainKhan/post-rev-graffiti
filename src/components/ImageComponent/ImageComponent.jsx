@@ -12,7 +12,7 @@ const ImageComponent = ({ image, setSelectedImage }) => {
     <div className={`image-container`} onClick={() => handleImageClick(image)}>
       <LazyLoadImage
         className={`image-item ${isLoaded ? "show" : "hide"}`}
-        src={image.url}
+        src={image.thumbnail_url}
         alt={image.description}
         visibleByDefault={true}
         onLoad={() => {
