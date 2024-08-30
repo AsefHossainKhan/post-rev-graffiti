@@ -6,7 +6,9 @@ const HeaderComponent = () => {
 
   return (
     <div className="header-container">
-      <h1 className="header-text">Post Revolution Graffiti in Bangladesh</h1>
+      <h1 className="header-text">
+        Post Revolution Graffiti & Murals in Bangladesh
+      </h1>
       <p className="header-description">
         In 2024, the student revolution in Bangladesh ignited from the remnants
         of a quota reform movement, evolving into a powerful uprising that

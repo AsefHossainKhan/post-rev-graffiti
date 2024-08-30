@@ -10,7 +10,6 @@ const breakpointColumnsObj = {
 
 const MasonryLayout = ({ images, setSelectedImage }) => (
   <>
-    <h1 className="masonry-layout-header">Graffiti Images</h1>
     <Masonry
       breakpointCols={breakpointColumnsObj}
       className="my-masonry-grid"
