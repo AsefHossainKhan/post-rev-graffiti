@@ -18,3 +18,20 @@
   font-size: var(--fs-500);
   font-family: var(--ff-500);
 }
+
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.show-flex{
+  display: flex;
+}
+
+.placeholder{
+  border-radius: 5px;
+}

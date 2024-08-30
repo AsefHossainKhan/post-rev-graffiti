@@ -4,7 +4,7 @@ import MasonryLayout from "./components/MasonryLayout/MasonryLayout";
 import images from "./actual_data";
 import ImageModal from "./components/ImageModal/ImageModal";
 import HeaderComponent from "./components/HeaderComponent/HeaderComponent";
-import { PERLOADCOUNT, SCROLLTHRESHOLD } from "./utils";
+import { PERLOADCOUNT, SCROLLTHRESHOLD, DELAY } from "./utils";
 
 function App() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -12,7 +12,12 @@ function App() {
     images.slice(0, PERLOADCOUNT)
   );
   const [imageCount, setImageCount] = useState(PERLOADCOUNT);
+  let lastUpdated = 0;
   const loadMoreImages = () => {
+    if (Date.now() - lastUpdated < DELAY) {
+      return;
+    }
+    lastUpdated = Date.now();
     console.log("load more images");
     setImageCount((prevCount) => prevCount + PERLOADCOUNT);
   };
