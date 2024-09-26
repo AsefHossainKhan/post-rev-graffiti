@@ -1,0 +1,4 @@
+node_modules
+graffiti_images/*
+graffiti_thumbnails/*
+package-lock.json
